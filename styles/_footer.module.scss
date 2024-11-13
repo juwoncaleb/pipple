@@ -1,0 +1,55 @@
+@import url("https://fonts.cdnfonts.com/css/switzer");
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 80px;
+  font-family: "Switzer", sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.386);
+}
+.footer_div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.logo_footer {
+  height: 50px;
+  margin-bottom: 50px;
+}
+.join_news {
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.join_inv {
+  font-size: 22px;
+}
+.newsletter {
+  max-width: 500px;
+}
+.join_news_head {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.input_mail {
+  width: 380px;
+  background-color: black;
+  border: 1px solid rgba(245, 245, 245, 0.663);
+  height: 50px;
+  border-radius: 20px;
+  
+}
+.sub_btn{
+  height: 50px;
+  background-color: dodgerblue;
+  width: 90px;
+  border-radius: 20px;
+position: relative;
+right: 90px;
+}
+.landingImage{
+  overflow: hidden;
+}
+.carousel{
+  margin-top: 100px;
+}
