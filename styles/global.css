@@ -31,16 +31,18 @@ body {
 }
 
 .bedImage {
-  height: 350px;
+  height: 250px;
+  border-radius: 20px;
 }
 
 .gasImage {
-  width: 580px;
-  height: 450px;
+  width: 380px;
+  height: 350px;
+  border-radius: 20px;
 }
 
 .gasSubText {
-  max-width: 400px;
+  max-width: 450px;
 }
 
 .repeat {
@@ -48,7 +50,7 @@ body {
 }
 
 .totalguest {
-  margin-top: 290px;
+  margin-top: 180px;
 }
 
 .ward {
@@ -236,6 +238,7 @@ body {
   border: 1px solid rgba(119, 119, 119, 0.342);
   border-radius: 20px;
   margin-top: 100px;
+  padding-right: 80px;
 }
 
 .service_tab {
@@ -256,8 +259,50 @@ body {
 }
 
 .room_icon {
-  height: 30px;
-  margin-right: 10px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.Hotel_class {
+  font-family: "Switzer", sans-serif;
+  font-size: 25px;
+}
+
+.hotel_dets {
+  margin-right: 14px;
+  margin-left: 7px;
+  font-family: "Switzer", sans-serif;
+  font-size: 15px;
+}
+
+.arrows_icons {
+  margin-top: 17px;
+  height: 20px;
+}
+
+.view_rooms {
+  width: 150px;
+  border-radius: 20px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 7px;
+}
+
+.booking_btn {
+  width: 150px;
+  border-radius: 20px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 20px;
+  font-family: "Switzer", sans-serif;
+}
+
+.dedicated {
+  font-family: "Switzer", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Switzer", sans-serif;
 }
 
 .footer {
@@ -321,4 +366,140 @@ body {
 
 .carousel {
   margin-top: 100px;
+}
+
+.about_us_page {
+  font-family: "Switzer", sans-serif;
+}
+
+.abt_img {
+  height: 380px;
+  border-radius: 20px;
+}
+
+.about_heading {
+  max-width: 500px;
+}
+
+.abt_head {
+  margin-top: 30px;
+}
+
+.abt_sub_text {
+  margin-bottom: 30px;
+}
+
+.abt_top_text {
+  margin-top: 30px;
+}
+
+.ab_head {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.abt_btns {
+  width: 200px;
+  border-radius: 20px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 7px;
+  text-align: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.about_book {
+  background-color: dodgerblue;
+  color: white;
+  padding-left: 40px;
+}
+
+.gue {
+  padding-left: 20px;
+}
+
+.service_head_text {
+  max-width: 600px;
+}
+
+.abt_serv {
+  margin-top: 100px;
+}
+
+.explore {
+  margin-bottom: 200px;
+}
+
+.abt_card {
+  background-color: dodgerblue;
+  border-radius: 30px;
+}
+
+.abt_card {
+  padding: 50px;
+}
+
+.card_header {
+  margin-top: 220px;
+  color: white;
+  font-size: 25px;
+}
+
+.card_sub_te {
+  color: white;
+  font-size: 16px;
+  margin-top: 200px;
+}
+
+.card_sub_text {
+  color: white;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.spscial {
+  color: white;
+  font-size: 25px;
+}
+
+.abt_ward {
+  height: 500px;
+  border-radius: 30px;
+  width: 400px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose {
+  margin-top: 150px;
+}
+
+.caro_abt {
+  height: 450px;
+  position: relative;
+  top: 50px;
+  padding: 50px;
+}
+
+.carousel {
+  position: relative;
+  bottom: 50px;
+}
+
+.caroul_img {
+  border-radius: 30px;
+}
+
+.contact_btn2 {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  margin-top: 35px;
 }/*# sourceMappingURL=global.css.map */

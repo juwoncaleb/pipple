@@ -19,19 +19,15 @@ export default function LandingPage() {
     <div className="landingImage">
       <div className=" ">
         <Header />
-        <div className="flex gap-8 justify-between ">
+        <div className="flex page_container gap-8 justify-between ">
           <div>
             <img className="bedImage" src="./bed.jpg" />
             <div className=" flex justify-between mt-14">
-              <div>
-                <p>70%</p>
-                <p>Our guest are repeat visitors</p>
-              </div>
-              <img className="repeat" src="./repeat.jpg" />
+             
             </div>
           </div>
           <div className="gasSubText">
-            <p>
+            <p className="dedicated">
               We're dedicated to create moments of joy & delight for every guest
             </p>
             <p>
@@ -39,17 +35,11 @@ export default function LandingPage() {
               nec auctor egestas quis augue non ultricies elit odio diam
               faucibus convallis.
             </p>
+            <button className="view_rooms booking_btn mt-10" >
+              Book now
+            </button>
             <div className=" flex totalguest justify-between ">
-              <div>
-                <p>4000+</p>
-                <p>Total guest of</p>
-              </div>
-              <img
-                width="50"
-                height="100"
-                src="https://img.icons8.com/ios/100/family--v1.png"
-                alt="family--v1"
-              />{" "}
+            
             </div>
             <div></div>
           </div>
@@ -58,92 +48,85 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="flex justify-between mt-20">
-          <p>EXPLORE ROOM</p>
+        <div className="flex page_container justify-between mt-20">
+          <p className="reviews">EXPLORE ROOM</p>
           <div className="flex gap-4">
-            <button>View All Rooms</button>
-            <img
-              width="50"
-              height="50"
-              src="https://img.icons8.com/ios/50/circled-up-right-2.png"
-              alt="circled-up-right-2"
-            />
+            <button className="view_rooms" >View All Rooms</button>
           </div>
         </div>
-        <div className="flex gap-10  page_container justify-between">
+        <div className="flex gap-10 mt-10  page_container justify-between">
           <div>
             <img src="./liv.jpg" />
-            <div className="flex">
+            <div className="flex mt-4">
               <div className="flex">
                 <img
                   className="room_icon"
-                  width="30"
+                  width="25"
                   height="64"
                   src="https://img.icons8.com/external-outline-berkahicon/64/external-floor-linely-interior-design-outline-berkahicon-3.png"
                   alt="external-floor-linely-interior-design-outline-berkahicon-3"
                 />
-                400 sq ft
+                <p className="hotel_dets"> 400 sq ft</p>
               </div>
               <div className="flex">
                 <img
                   className="room_icon"
-                  width="30"
+                  width="25"
                   height="50"
                   src="https://img.icons8.com/ios/50/bedroom.png"
                   alt="bedroom"
                 />
-                1 bed
+                <p className="hotel_dets"> 1 bed</p>
               </div>
               <div className="flex">
                 <img
                   className="room_icon"
-                  width="30"
+                  width="25"
                   height="64"
                   src="https://img.icons8.com/pastel-glyph/64/user-male-circle.png"
                   alt="user-male-circle"
                 />
-                3 people{" "}
+                <p className="hotel_dets"> 3 people</p>
               </div>
             </div>
-            <p className="mt-2">Pent house room</p>
+            <p className="mt-2 Hotel_class">Pent house room</p>
           </div>
 
           <div>
             <img src="./hus.jpg" />
-            <div className="flex">
+            <div className="flex mt-4">
               <div className="flex">
                 <img
                   className="room_icon"
-                  width="30"
+                  width="25"
                   height="64"
                   src="https://img.icons8.com/external-outline-berkahicon/64/external-floor-linely-interior-design-outline-berkahicon-3.png"
                   alt="external-floor-linely-interior-design-outline-berkahicon-3"
                 />
-                <p>                400 sq ft
-                </p>
+                <p className="hotel_dets"> 400 sq ft</p>
               </div>
               <div className="flex">
                 <img
                   className="room_icon"
-                  width="30"
+                  width="25"
                   height="50"
                   src="https://img.icons8.com/ios/50/bedroom.png"
                   alt="bedroom"
                 />
-                1 bed
+                <p className="hotel_dets"> 1 bed</p>
               </div>
               <div className="flex">
                 <img
                   className="room_icon"
-                  width="30"
+                  width="25"
                   height="64"
                   src="https://img.icons8.com/pastel-glyph/64/user-male-circle.png"
                   alt="user-male-circle"
                 />
-                3 people{" "}
+                <p className="hotel_dets"> 3 people</p>
               </div>
             </div>
-            <p className="mt-2">Pent house room</p>
+            <p className="mt-2 Hotel_class">Pent house room</p>
           </div>
         </div>
 
@@ -154,7 +137,7 @@ export default function LandingPage() {
             <div>
               <div className="flex">
                 <p className="services_header mr-10">1.</p>
-                <div>
+                <div className="service_head_text">
                   <p className="services_header">Daily Housekeeping</p>
                   <p>
                     Semper vulputate commodo urna id. Est feugiat aliquam
@@ -164,7 +147,7 @@ export default function LandingPage() {
               </div>
               <div className="flex">
                 <p className="services_header mr-10">2.</p>
-                <div>
+                <div className="service_head_text">
                   <p className="services_header">Daily Housekeeping</p>
                   <p>
                     Semper vulputate commodo urna id. Est feugiat aliquam
@@ -174,7 +157,7 @@ export default function LandingPage() {
               </div>
               <div className="flex">
                 <p className="services_header mr-10">3.</p>
-                <div>
+                <div className="service_head_text">
                   <p className="services_header">Daily Housekeeping</p>
                   <p>
                     Semper vulputate commodo urna id. Est feugiat aliquam

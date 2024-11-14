@@ -6,21 +6,23 @@ body {
   margin-right: 5%;
 }
 .bedImage {
-  height: 350px;
+  height: 250px;
+  border-radius: 20px;
 }
 .gasImage {
-  width: 580px;
-  height: 450px;
+  width: 380px;
+  height: 350px;
+  border-radius: 20px;
 }
 
 .gasSubText {
-  max-width: 400px;
+  max-width: 450px;
 }
 .repeat {
   height: 50px;
 }
 .totalguest {
-  margin-top: 290px;
+  margin-top: 180px;
 }
 .ward {
   width: 40%;
@@ -182,6 +184,7 @@ body {
   border: 1px solid rgba(119, 119, 119, 0.342);
   border-radius: 20px;
   margin-top: 100px;
+  padding-right: 80px;
 }
 .service_tab {
   padding-top: 110px;
@@ -198,7 +201,46 @@ body {
   font-weight: 500;
   margin-top: 50px;
 }
-.room_icon{
-  height: 30px;
-  margin-right: 10px;
+.room_icon {
+  height: 20px;
+  margin-right: 6px;
+}
+.Hotel_class {
+  font-family: "Switzer", sans-serif;
+  font-size: 25px;
+}
+.hotel_dets {
+  margin-right: 14px;
+  margin-left: 7px;
+  font-family: "Switzer", sans-serif;
+  font-size: 15px;
+}
+.arrows_icons {
+  margin-top: 17px;
+  height: 20px;
+}
+
+.view_rooms {
+  width: 150px;
+  border-radius: 20px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 7px;
+}
+.booking_btn{
+  width: 150px;
+  border-radius: 20px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 20px;
+  font-family: "Switzer", sans-serif;
+
+}
+.dedicated {
+  font-family: "Switzer", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Switzer", sans-serif;
+
 }
