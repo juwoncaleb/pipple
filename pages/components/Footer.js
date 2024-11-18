@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
           <div className="mt-4">
             <input className="input_mail" />
-            <button className="sub_btn">Submut</button>
+            <button className="sub_btn">Submit</button>
           </div>
         </div>
 

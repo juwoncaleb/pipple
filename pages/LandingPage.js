@@ -16,8 +16,8 @@ export default function LandingPage() {
     pauseOnHover: false,
   };
   return (
-    <div className="landingImage">
-      <div className=" ">
+    <div  className="landingImage ">
+      <div >
         <Header />
         <div className="flex page_container gap-8 justify-between ">
           <div>
@@ -48,7 +48,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="flex page_container justify-between mt-20">
+        <div className="flex page_container justify-between top_div">
           <p className="reviews">EXPLORE ROOM</p>
           <div className="flex gap-4">
             <button className="view_rooms" >View All Rooms</button>
@@ -130,7 +130,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="flex services page_container gap-20 justify-between">
+        <div className="flex services top_div page_container gap-20 justify-between">
           <img className="ward" src="./int.jpg" />
           <div className="service_tab">
             <p className="service_text">OUR SERVICES</p>
@@ -145,7 +145,7 @@ export default function LandingPage() {
                   </p>
                 </div>
               </div>
-              <div className="flex">
+              <div className="flex ">
                 <p className="services_header mr-10">2.</p>
                 <div className="service_head_text">
                   <p className="services_header">Daily Housekeeping</p>
@@ -169,7 +169,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="facts_div">
+        <div className="facts_div ">
           <div className="flex page_container justify-between">
             <p className="reviews">FACTS & FIGURES</p>
             <div>
@@ -215,7 +215,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="page_container">
+        <div className="page_container top_div">
           <div className="flex mt-10 mb-8 justify-between">
             <div>
               <p className="tet">TESTIMONIALS</p>
@@ -266,7 +266,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className="hook page_container">
+        <div className="hook top_div page_container">
           <center>
             <img
               className="hotel"
@@ -275,13 +275,13 @@ export default function LandingPage() {
               width={70}
               height={100}
             />
-            <div className="hotel_div">
+            <div className="hotel_div ">
               <p className="hotel_header">
                 SURPRISE YOUR LOVED ONES WITH HOTEL CRUISE GIFT CARDS.
               </p>
             </div>
           </center>
-          <div className="flex justify-between gap-10">
+          <div className="flex justify-between btn_carr gap-10">
             <img className="tv" src="./tv.jpg" />
             <div className="card_div">
               <p>

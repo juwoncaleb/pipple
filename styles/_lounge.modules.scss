@@ -1,0 +1,196 @@
+.lounge_div {
+  margin-left: 4%;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+
+  margin-right: 4%;
+  margin-left: 4%;
+}
+.lounge_head {
+  padding: 50px;
+}
+.lounge_test_img {
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.lounge_ciient {
+  font-size: 35px;
+  font-family: "Cormorant Garamond", serif;
+  margin-left: 20px;
+}
+.satisfied_client_text {
+  margin-left: 20px;
+  font-family: "Lato", sans-serif;
+}
+.lounge_header_text {
+  font-size: 65px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  line-height: 70px;
+}
+
+.culinnary {
+  font-style: italic;
+  color: dodgerblue;
+}
+.ofada_meal {
+  margin-top: 100px;
+  height: 500px;
+  background-image: url("/ofada.jpg"); /* Absolute path from the public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Required for positioning the overlay and button */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers the button */
+  color: white; /* Default text color for the button if needed */
+  overflow: hidden;
+}
+
+.ofada_meal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Makes the background darker */
+  z-index: 1; /* Ensures the overlay appears above the background */
+}
+
+.book_now {
+  position: relative;
+  z-index: 2; /* Ensures the button appears above the overlay */
+  padding: 10px 20px;
+  background-color: dodgerblue; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.book_now:hover {
+  background-color: dodgerblue; /* Slightly darker shade on hover */
+}
+
+.background-image {
+  margin-top: 50px;
+  height: 500px;
+  background-image: url("/food1.jpg"); /* Absolute path from the public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.lounge_sub_text {
+  font-size: 45px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  line-height: 50px;
+}
+.loung_video {
+  margin-top: 100px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.lounge_head_Sub_vide {
+  max-width: 450px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: gray;
+  margin-top: 20px;
+}
+.lounge_head_Sub_text {
+  max-width: 300px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: gray;
+  margin-top: 20px;
+}
+.menu_btn {
+  height: 40px;
+  width: 130px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 16px;
+}
+.lounge_contact {
+  height: 40px;
+  width: 130px;
+  color: black;
+  font-size: 16px;
+  border: 1px solid black;
+}
+.ricevideo {
+  border-radius: 100px;
+  height: 500px;
+}
+.trad_food {
+  border-radius: 100px;
+  height: 400px;
+  width: 350px;
+  margin-top: 50px;
+}
+.menu_list {
+  margin-top: 190px;
+}
+.lounge_pre {
+  margin-top: 15px;
+  font-family: "Lato", sans-serif;
+  max-width: 40%;
+}
+.food {
+  border-radius: 50%;
+  height: 200px;
+}
+
+.food_div {
+  margin-top: 100px;
+}
+.food_cat {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 23px;
+  margin-top: 20px;
+}
+.learn {
+  font-family: "Lato", sans-serif;
+  color: dodgerblue;
+}
+.barc {
+  height: 650px;
+}
+.barcadi {
+  width: 500px;
+}
+.drinks_tab {
+  margin-top: 180px;
+}
+.henny_div {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.lounge_header_text_food {
+  font-size: 1rem; /* Adjust to your preference */
+  line-height: 1.5;
+  font-size: 45px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  line-height: 70px;
+  margin-top: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.text_food {
+  display: inline-block; /* Ensures images stay inline */
+  vertical-align: middle; /* Aligns images with the text */
+  width: 80px; /* Set a suitable width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 5px; /* Adds spacing around the image */
+  border-radius: 50%;
+}

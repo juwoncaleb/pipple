@@ -3,21 +3,21 @@ import React, { useState } from "react";
 
 export default function Header() {
   return (
-    <div className="flex   justify-between">
+    <div className="flex   hd_foot  justify-between">
       <div className="flex tab1 justify-">
-        <p className="">HOME</p>
-        <p className="header_text">ABOUT US</p>
-        <p className="header_text">ROOM</p>
-        <p className="header_text">HALL</p>
-        <p className="header_text">LOUNGE</p>
+        <p  className="header_text">Home</p>
+        <p className="header_text">About Us</p>
+        <p className="header_text">Rooms</p>
+        <p className="header_text">Hall</p>
+        <p className="header_text">Lounge</p>
       </div>
       <div className="flex">
-        <img className="logo_head mr-4" src="./lg.png" />
-        <p>B.Pipples Suites</p>
+        <img className="logo_head " src="./lg.png" />
+        <p className="header_text">B.Pipples Suites</p>
       </div>
       <img className="logo_head invis ml-4" src="./lg.png" />
       <div>
-        <p>Book A room</p>
+      <button className="contact_btn">Contact us</button>
       </div>
     </div>
   );
