@@ -28,7 +28,7 @@ export default function LandingPage() {
           </div>
           <div className="gasSubText">
             <p className="dedicated">
-              We're dedicated to create moments of joy & delight for every guest
+              We are dedicated to create moments of joy & delight for every guest
             </p>
             <p>
               Venenatis sed habitant tempus malesuada condimentum suspendisse
